@@ -83,5 +83,17 @@ ZMK v0.3 固定・physical-layout 定義済み。Studio からキーマップを
 
 ---
 
+## Windows Bluetooth 安定化
+
+Windows環境で電源ON後の再接続が不安定な場合、`k_grid18.conf` に以下の1行が追加済みです。
+
+```conf
+CONFIG_ZMK_BLE_EXPERIMENTAL_CONN=y
+```
+
+これによりWindowsのBLE接続処理がWindows向けに最適化され、再接続の安定性が向上します。Mac環境への影響は軽微です。
+
+---
+
 ## MIT License
 This project is licensed under the MIT License.
