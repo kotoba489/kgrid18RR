@@ -1,7 +1,7 @@
 
 # ⌨️ kgrid18
 ## 🛠️ Current Configuration 
-18キー（左右各9キー、最下段中央3キー×2）分割レイアウト。  
+18キー（左右各9キー、最下段3キー×2）分割レイアウト。  
 kgrid20をベースに左右各2キーを削除した19ピッチコンパクト版。
 
 ## 📂 Branch Strategy
@@ -73,16 +73,13 @@ CONFIG_ZMK_POINTING=y
 
 ---
 
-
 ## ZMK Studio 対応
 ZMK v0.3 固定・physical-layout 定義済み。Studio からキーマップをリアルタイム編集できます。
 
 ---
 
-
 ### 注意事項
 - キーマップ変更時は **左側だけ** `k_grid18_left.uf2` を書き込めばよい（右側は不要）
-
 
 ---
 
